@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 2023-9-6 rcc 1. Enclosed all the content in one root element  -->
+<root>
+    <front>
+        <!-- rcc 2. Fixed the closing tag source-info so it matched sourceInfo -->
+        <sourceInfo><line>MARY RUSSELL MITFORD</line>
+            <line>Transcript of notebook of Mary Russell Mitford</line> contained in the British
+            Museum (P 24834 : C.60.b.7.)</sourceInfo>
+        <!-- rcc 3. Fixed the ampersand so it was typed correctly in XML -->
+        <!-- rcc 4. Fixed the p element below's closing element by adding a backslash -->
+        <!-- rcc 5. Fixed the q element below's closing element by adding a backslash -->
+        <p>The note-book has a printed title page <q>The Literary Pocket-Book; or, Companion for the
+                lover of Nature &amp; Art, 1819</q>. The size of the notebook is 13 x 8 cm.</p>
+        <p>Miss Mitford's notes begin on 1 January 1819 and end 11 March 1823.</p>
+        <p>The transcript of which this is a copy is in the possession of the Public Library,
+            Reading, Berks, England. A photostat copy of the MS is also available at that library.
+            Copyright presumably rests with the British Museum.</p>
+        <!-- rcc 6. Added a closing element to this p -->
+        <p><emph rend="underline">July 1955</emph>.</p>
+
+        <pb n="iv"/>
+        <p>
+            <label> RPL Local<lb/>Collection<lb/>
+                <milestone unit="line"/> Class <add><handShift resp="#black_pen_RCLnb"
+                    />B/TU/MIT</add><lb/>
+                <!-- rcc 7. Added a '>' to the lb element below to make it properly self-closing -->
+                <milestone unit="line"/> Acc. No. <add><handShift resp="#blue_pen_RCLnb"/>L
+                    7088</add><lb/>
+                <milestone unit="line"/> Acc. Date <add><handShift resp="#blue_pen_RCLnb"/>-</add>
+                <!-- rcc 8. Added quotation marks around the attribute 'box' -->
+                <milestone unit="box"/>
+            </label>
+        </p>
+    </front>
+    <body>
+        <div type="entry">
+            <head>
+                <date when="1819-01-01"/>
+            </head>
+            <!-- rcc 9. Fixed the persName element's opening element below by removing the space -->
+            <!-- rcc 10. Fixed the element sorting below; the p element's closing element was before the title element's closing element -->
+            <p>At <placeName>Farley Hill</placeName>--Happy day--<persName ref="#Dickinson_Mrs">Mrs.
+                    D</persName>'s singing--<title>Where'er you walk</title>--<persName
+                    ref="#Dickinson_Charles">Mr. D</persName>'s reading--<title>Count
+                    Ugolino.</title></p>
+        </div>
+
+    </body>
+</root>
