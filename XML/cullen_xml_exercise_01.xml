@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root>
+    <letter><header>[<author>Letter from <person name="Marian Baldwin">Marian Baldwin</person></author>,
+                <date><month when="June">June</month> 30, <year when="1917">1917</year></date>]</header>
+    <location name="La Touraine">On Board La Touraine,</location>
+    <date when="6/30/1917"><month>June</month> 30, <year>1917</year>.</date>
+    <paragraph n="1">Even now that we are out of sight of land, it seems impossible that I am
+        actually off to France and, for the first time in my life, traveling alone. Everything has
+        happened so quickly since the American Fund for French Wounded found an opening for me in
+        Paris that I suppose I am still somewhat dazed and bewildered. The fact that I don't know
+        what it will all be like and that I can't look ahead makes it easier to be happy and live in
+        the present. Of course I have had a bit of a taste in New York of the work that the A. F. F.
+        W. is doing but its <location name="A.F.F.W Headwuarters">Headquarters in Paris</location>
+        will be different in some ways I fancy.</paragraph>
+    <paragraph n="2">I can't get over how lucky I am to have this chance for I realize how few girls
+        of my age are getting across, and I understood the grit and pluck which made you encourage
+        me on my great adventure and send me along a path which has proved so dangerous of
+        late.</paragraph>
+    <paragraph n="3">As we drifted down the river, in the sunset glow with two absurd tugs puffing
+        alongside, I know that many eyes were moist and that the same thought was in all our minds.
+        How many of this ship's company will see that sky-line again! It was very quiet, no one
+        spoke much, and, little by little, the glow faded from the sky and one star after another
+        appeared. I knew that you would be looking at those same stars down in Lakewood and that
+        your thoughts and prayers were the same that filled my heart at that moment. Somehow
+        distance does not separate, after all.</paragraph>
+    <!--Judging by the last two paragraphs, it appears that this document is a letter written by a woman and sent to her romantic partner-->
+    <paragraph n="4">We waited near the <monument>Statue of Liberty</monument> until midnight—a
+        rumor had it that a "personage" was to come on board. This individual was shrouded in
+        mystery until we put to sea when it was given out that the party which had clambered aboard
+        in the night was none other than the Italian Mission. Our spirits rose at once for, what
+        with <person name="Frank Sayre">Frank Sayre</person> on the boat and these distinguished
+        Italian gentlemen, we shall doubtless be honored by a bigger convoy and so doubly safe.
+        However, thus far we have but two destroyers following us. They can be seen distinctly
+        outlined against the horizon, one on each side, and seem to be the same somber gray which
+        all ships are affecting in this war. A sailor informed me this morning that we weren't in
+        much danger for the first four or five days but that after that I might see some excitement.
+        Here's hoping!</paragraph>
+    <paragraph n="5">I have a small inside cabin and my <person name="unnamed Haitian room-mate"
+            >room-mate</person> is quite a character. She is a native of Haiti, voluble and very
+        portly—has four large pieces of baggage in our tiny stateroom, wears a costume which
+        resembles a Mother Hubbard and smokes countless thin cigarettes that smell like incense!
+        When I appeared, there didn't seem to be much room for me but, as she says, luckily I am
+        small, and I was soon tucked into the upper berth with my belongings! She really isn't bad
+        and after looking me over carefully told me that she didn't think we would fight and from
+        that time has beamed upon me! She is going over to join her son who has been fighting with
+        the French since the beginning of the war but will never go back to the Front now, having
+        lost some fingers off each hand. She is so thankful, she says, that he hasn't lost more than
+        his fingers. </paragraph>
+    <source>[Source: _Canteening Overseas_: 1917-1919, published 1920.]</source></letter>
+    
+    <letter><header>En route from <location name="Bordeaux">Bordeaux</location> to <location name="Paris">Paris</location>, <date when="7/18/1917"><month when="July">July</month> 18th, <year when="1917">1917</year>.</date></header>
+    
+    
+    <paragraph n="1">On landing yesterday I went straight to the Hôtel de France and it certainly was good to have room to turn around in: as for a bed with real springs I greeted it with enthusiasm! Towards evening Frank and I took a long walk about the city. A port town always interests me and we saw it all at the loveliest time of day. The harbor was full of fishing smacks and small craft of all kinds and exquisite tones in the sails and rigging. The last rays of the sun cast a rosy hue over everything, making one think at once of Venice and the days before the war. Later we wandered through some of the oldest parts of Bordeaux and I really felt that I was abroad again! The narrow winding streets and cobblestones, with here and there an ancient façade or doorway and everywhere, in the poorest alleys, a bit of a vine or potted plant in the windows. How do they manage to make it all so picturesque and alluring?</paragraph>
+    
+    <paragraph n="2">The women and the old men are doing everything and it is surprising to see the lady conductors. On this train they use women entirely, even in the dining car. The war hasn't robbed them of vivacity or their beautiful complexions and I believe they are even prettier in their simple black working clothes than before.</paragraph>
+    
+    <paragraph n="3">We are at present passing through the famous vineyards and I have never seen the country look so beautiful. The crops seem in perfect condition, thanks to the patient labor of these wonderful women, and the grain waves in profusion everywhere. I have longed for you at every turn, how you would enjoy it all. The poppies are in their prime and, as the train whirls by, they look like immense splashes of red -almost like stains of blood against the gold of the wheat.</paragraph>
+    
+    <paragraph n="4">I have just come in from a very excellent meal in the dining car -the food was served promptly by two French girls of the peasant type and with a speed that was wonderful, the car holding over thirty persons.</paragraph>
+    
+    Paris</letter>
+</root>
