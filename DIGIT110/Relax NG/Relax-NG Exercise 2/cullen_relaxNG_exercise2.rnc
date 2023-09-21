@@ -1,0 +1,34 @@
+start = root
+root = element root{letter+}
+
+letter = element letter{sender?,recipient?,header?,mixed{(location|date|paragraph|source)*}}
+
+sender = attribute sender{xsd:string}
+recipient = attribute recipient{xsd:string}
+
+header = element header{mixed{(author|date|location)*}}
+author = element author{mixed{person*}}
+person = element person{name, text}
+name = attribute name{xsd:string}
+
+location = element location{name*,text}
+
+date = element date{when*,mixed{month*,year*}}
+when = attribute when{xsd:date | xsd:gYearMonth | xsd:gYear | xsd:string}
+month = element month{when*, text}
+year = element year{when*, text}
+
+paragraph = element paragraph{n?,mixed{(location|monument|person|simile|translation|acronym)*}}
+
+n = attribute n{xsd:integer}
+monument = element monument{text}
+simile = element simile{text}
+translation = element translation{language, translatedText, text}
+language = attribute language{xsd:string}
+translatedText = attribute translatedText{xsd:string}
+acronym = element acronym{meaning, text}
+meaning = attribute meaning{xsd:string}
+
+source = element source{text}
+
+

@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="cullen_relaxNG_exercise2.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <!--The identification of the recipient as an 'unnamed loved one' is presumptious. There is evidence that these letters are written wit a romantic partner of close friend in mind.-->
+    <letter sender="Marian Baldwin" recipient="unnamed loved one">
+        <header>[<author>Letter from <person name="Marian Baldwin">Marian Baldwin</person></author>,
+                    <date><month when="June">June</month> 30, <year when="1917"
+            >1917</year></date>]</header>
+
+        <location name="La Touraine">On Board La Touraine,</location>
+
+        <date when="6/30/1917"><month>June</month> 30, <year>1917</year>.</date>
+
+        <paragraph n="1">Even now that we are out of sight of land, it seems impossible that I am
+            actually off to France and, for the first time in my life, traveling alone. Everything
+            has happened so quickly since the American Fund for French Wounded found an opening for
+            me in Paris that I suppose I am still somewhat dazed and bewildered. The fact that I
+            don't know what it will all be like and that I can't look ahead makes it easier to be
+            happy and live in the present. Of course I have had a bit of a taste in New York of the
+            work that the A. F. F. W. is doing but its <location name="A.F.F.W Headwuarters"
+                >Headquarters in Paris</location> will be different in some ways I
+            fancy.</paragraph>
+
+        <paragraph n="2">I can't get over how lucky I am to have this chance for I realize how few
+            girls of my age are getting across, and I understood the grit and pluck which made you
+            encourage me on my great adventure and send me along a path which has proved so
+            dangerous of late.</paragraph>
+
+        <paragraph n="3">As we drifted down the river, in the sunset glow with two absurd tugs
+            puffing alongside, I know that many eyes were moist and that the same thought was in all
+            our minds. How many of this ship's company will see that sky-line again! It was very
+            quiet, no one spoke much, and, little by little, the glow faded from the sky and one
+            star after another appeared. I knew that you would be looking at those same stars down
+            in Lakewood and that your thoughts and prayers were the same that filled my heart at
+            that moment. Somehow distance does not separate, after all.</paragraph>
+        <!--Judging by the last two paragraphs, it appears that this document is a letter written by a woman and sent to her romantic partner-->
+
+        <paragraph n="4">We waited near the <monument>Statue of Liberty</monument> until midnight—a
+            rumor had it that a "personage" was to come on board. This individual was shrouded in
+            mystery until we put to sea when it was given out that the party which had clambered
+            aboard in the night was none other than the Italian Mission. Our spirits rose at once
+            for, what with <person name="Frank Sayre">Frank Sayre</person> on the boat and these
+            distinguished Italian gentlemen, we shall doubtless be honored by a bigger convoy and so
+            doubly safe. However, thus far we have but two destroyers following us. They can be seen
+            distinctly outlined against the horizon, one on each side, and seem to be the same
+            somber gray which all ships are affecting in this war. A sailor informed me this morning
+            that we weren't in much danger for the first four or five days but that after that I
+            might see some excitement. Here's hoping!</paragraph>
+
+        <paragraph n="5">I have a small inside cabin and my <person name="unnamed Haitian room-mate"
+                >room-mate</person> is quite a character. She is a native of Haiti, voluble and very
+            portly—has four large pieces of baggage in our tiny stateroom, wears a costume which
+            resembles a Mother Hubbard and smokes countless thin cigarettes that smell like incense!
+            When I appeared, there didn't seem to be much room for me but, as she says, luckily I am
+            small, and I was soon tucked into the upper berth with my belongings! She really isn't
+            bad and after looking me over carefully told me that she didn't think we would fight and
+            from that time has beamed upon me! She is going over to join her son who has been
+            fighting with the French since the beginning of the war but will never go back to the
+            Front now, having lost some fingers off each hand. She is so thankful, she says, that he
+            hasn't lost more than his fingers. </paragraph>
+
+        <source>[Source: _Canteening Overseas_: 1917-1919, published 1920.]</source>
+
+    </letter>
+
+    <letter sender="Marian Baldwin" recipient="unnamed loved one">
+        <header>En route from <location name="Bordeaux">Bordeaux</location> to <location
+                name="Paris">Paris</location>, <date when="7/18/1917"><month when="July"
+                    >July</month> 18th, <year when="1917">1917</year>.</date></header>
+
+
+        <paragraph n="1">On landing yesterday I went straight to the <location
+                name="Hôtel de France">Hôtel de France</location> and it certainly was good to have
+            room to turn around in: as for a bed with real springs I greeted it with enthusiasm!
+            Towards evening <person name="Frank Sayre">Frank</person> and I took a long walk about
+            the city. A port town always interests me and we saw it all at the loveliest time of
+            day. The harbor was full of fishing smacks and small craft of all kinds and exquisite
+            tones in the sails and rigging. The last rays of the sun cast a rosy hue over
+            everything, making one think at once of <location name="Venice">Venice</location> and
+            the days before the war. Later we wandered through some of the oldest parts of <location
+                name="Bordeaux">Bordeaux</location> and I really felt that I was abroad again! The
+            narrow winding streets and cobblestones, with here and there an ancient façade or
+            doorway and everywhere, in the poorest alleys, a bit of a vine or potted plant in the
+            windows. How do they manage to make it all so picturesque and alluring?</paragraph>
+        <!--In the prior paragraph, the identification of 'Frank' as Frank Sayre is presumptious. It is possible the author is talking of a different Frank.-->
+
+        <paragraph n="2">The women and the old men are doing everything and it is surprising to see
+            the lady conductors. On this train they use women entirely, even in the dining car. The
+            war hasn't robbed them of vivacity or their beautiful complexions and I believe they are
+            even prettier in their simple black working clothes than before.</paragraph>
+
+        <paragraph n="3">We are at present passing through the famous vineyards and I have never
+            seen the country look so beautiful. The crops seem in perfect condition, thanks to the
+            patient labor of these wonderful women, and the grain waves in profusion everywhere. I
+            have longed for you at every turn, how you would enjoy it all. The poppies are in their
+            prime and, as the train whirls by, they look like immense splashes of red
+                -<simile>almost like stains of blood</simile> against the gold of the
+            wheat.</paragraph>
+
+        <paragraph n="4">I have just come in from a very excellent meal in the dining car -the food
+            was served promptly by two French girls of the peasant type and with a speed that was
+            wonderful, the car holding over thirty persons.</paragraph>
+
+        <location name="Paris">Paris</location>
+    </letter>
+
+    <letter sender="Marian Baldwin" recipient="unnamed loved one">
+        <header><location name="Baccarat">Baccarat</location>, <date when="7/24/1918"><month
+                    when="July">July</month> 24th, <year when="1918">1918</year></date>.</header>
+
+        <paragraph n="1">A wonderful moon to-night and the countryside transformed under its silvery
+            radiance. We have had terrible nights for a week now and we are all more or less worn
+            out with little sleep and long hot days. The German planes have been coming over as
+            regularly as clock work and as this sector is unimportant compared to others farther up
+            the line, we aren't really protected at all. An English aëroplane field lies some miles
+            in the country behind us and they do what they can to help drive off the enemy planes
+            but they aren't able to accomplish much as they have a huge area to cover and very
+            little equipment.</paragraph>
+
+        <paragraph n="2">I thought I knew what an air raid was like after being in <location
+                name="Paris">Paris</location> for six months, but in comparison, those raids seem
+            like mere child's play. Ever since the moon was two days old, the Germans haven't missed
+            a single night and as soon as it gets dark, we hear the ominous whirr. At once the peace
+            and quiet evaporate as if by magic and the whole atmosphere becomes alive with
+            expectation and silent fears. The church bell is set ringing furiously and the doleful
+            sirens begin their wailing from several parts of the town at once. Windows are thrown
+            open and people begin to call back and forth to each other. This lasts only a few
+            moments and then complete and utter silence. Every one has gone below ground and the
+            town lies waiting in the moonlight.</paragraph>
+
+        <paragraph n="3">At first I refused to take refuge "<translation language="French"
+                translatedText="in the cellar">dans la cave</translation>" (the cellar) partly
+            because I didn't want to be smothered to death beneath the plaster and brick walls of
+            the house. A direct hit seemed infinitely preferable to that, also, strange as it may
+            seem, I had no desire to get out of bed. I had lost so much sleep and had been working
+            so hard, that night generally found me thankful for a bed. Even if the noise of guns
+            kept me awake I could rest, and the moist, chilly cellar held no charms! However, I
+            found that staying "<translation language="French" translatedText="in bed">au
+                lit</translation>" in the midst of an air raid was unheard of in these parts and
+                <person name="Madame M.">Madame M.</person> rushed into my room and with tears in
+            her eyes implored me to accompany her below. The poor little old lady fears the avions
+            above all else and the sound of their motors drives her into a frenzy of fear. In order
+            to calm her I threw on a few clothes and we stumbled down the narrow stairs and spent
+            the dark hours huddled in a little group around a candle that sputtered and flickered in
+            the draughty, damp air. Our party consists always of Madame, <person name="Joséphine"
+                >Joséphine</person>, <person name="unnamed French officer">a French
+            officer</person>, who is likewise billeted in the house, and myself. The first night
+            that we spent in the cellar, he was already below when we ladies arrived. I have never
+            seen a more droll figure and I wonder now how I ever kept my face straight. He was
+            attired in pink and white pajamas and on his head at a jaunty angle sat his most dressy
+            uniform cap covered with gold braid and pale blue broadcloth! Undoubtedly he felt it
+            added dignity and a certain modesty to his appearance. As we came down he was pacing up
+            and down the mud floor in his bare feet! He told me that he had been through four years
+            of war, had seen comrades blown to atoms right beside him. "I know what these bombs can
+            do, I have seen with my two eyes, it is folly not to seek shelter in a raid, so when I
+            hear the Boches coming, I leap from my bed <translation language="French"
+                translatedText="and I run away">et je me sauve</translation>, Mademoiselle." I felt
+            that he was right and that the French must be thinking some of us very children who are
+            still taking war as a game, and looking upon our folly and daring as bravery. Surely no
+            one has any business to waste his life. For the first and perhaps the last time our
+            lives are infinitely important and useful.</paragraph>
+
+        <paragraph n="4"><person name="unnamed French officer">This officer</person> is really a
+            very good sort and entertains us during the long hours with tales of all sorts. We
+            discuss the war at great length and try and keep our minds occupied and off of the
+            terrible sounds overhead. It's great for my French and I am improving. Sometimes the
+            noise is deafening, the anti-air-craft guns keep up a continuous fire and yet the
+            Germans don't seem to be the least bit daunted and fly just above the tops of the trees,
+            placing their bombs with the most pitiless accuracy. Last night three houses in this
+            neighborhood were hit and in the old mill, half a block away, a young woman and her
+            little girl were killed. It was a ghastly few hours. <person name="Madame M."
+                >Madame</person> had one fit of hysterics right after another and threw herself
+            about the cellar in a spasm of fear, trembling violently and moaning and crying. It was
+            one of the most pathetic and terrible sights I have ever seen. We tried to quiet her but
+            as the bombs were literally falling all about us, there wasn't much one could say to
+            cheer her. When one plane had dropped its supply of horror it would dash back and in ten
+            minutes another would be swooping and sailing above us and the crash and uproar would
+            begin again. In order that they may see better to do their hideous work, they drop a
+            flare which illuminates the town as though it were day. By the time the strong light has
+            burned itself out several bombs can be neatly placed.</paragraph>
+
+        <paragraph n="5">The raid generally begins about nine o'clock and the planes come over in
+            rapid succession until dawn. It is extraordinary what an effect the sound of the German
+            motor has upon one. The noise even at a great distance will wake me out of a sound sleep
+            whereas our own planes can fly right past my window and I never know it.</paragraph>
+
+        <paragraph n="6">This morning the town is really upset. Last night's raid was the worst yet.
+            Two of our soldiers in the <location name="Evacuation Hospital">Evacuation
+                Hospital</location> were killed and a great number of French. A bomb lit across the
+            street from <location name="Y-station">the Y</location> and this morning I found all my
+            canteen windows smashed into a thousand pieces. The Boches dropped several notes all
+            over the streets written in French which said "If you think last night's raid a bad one,
+            wait for to-night. We will break all records." The consequence is that the morale is not
+            very good, every one worn out with no sleep, horror piled on horror, and the
+            anticipation of worse things to-night.</paragraph>
+        <!--The identification of 'the Y' as a Y-Station in the prior paragraph is presumptious. Y-stations, parts of a British information-gathering network, were commonplace in WWII, there were over 600. However, no mention to a Baccarat Y-station is easily found.-->
+
+        <date when="7/24/1918 later">Later -Same day.</date>
+
+        <paragraph n="7">To-day is a sizzler, quite the worse we've had. The dust pours in at the
+            windows and the canteen is black with flies. We've been making lemonade for hundreds of
+            hot, tired soldiers. They come in white with dust and the perspiration running down
+            their cheeks. No cotton uniforms to be issued this summer; the boys have to wear their
+            woolly winter ones, poor darlings, and can't even take their blouses off. The result is
+            that if this weather continues the entire <acronym meaning="American Expeditiary Forces"
+                >A. E. F.</acronym> will be reduced to a grease spot!</paragraph>
+
+        <paragraph n="8">We have made a hundred and sixty liters of lemonade to-day; the canteen has
+            been jammed to the doors since early morning with men, tongues hanging out and
+            clammering for something "cold and wet." The boys stand around in a huge ring while we
+            make the lemonade, offering all kinds of advice and suggestions; I have quite a time
+            keeping them on the other side of the counter; they all want to help but we can't use
+            more than three stalwart and professional lemon squeezers! When the huge tank is finally
+            filled, there are loud cheers from all present and it is worth anything to see the gusto
+            with which they dispatch the lemonade down their dusty throats.</paragraph>
+
+        <paragraph n="9">How I love this place, -it's perfectly great being attached to a
+            division.</paragraph>
+
+        <paragraph n="10"><person name="Westy">Westy</person>, <person name="Alice">Alice</person>,
+                <person name="Squibby">Squibby</person>, who have canteens in little villages
+            nearby, are in here quite frequently and we compare notes and discuss methods, and our
+            various problems at length. I imagine some of us will shortly be sent back to <location
+                name="Aix-en-Provence">Aix</location> as our month of change is nearing its end. I
+            can't tell you how I hate the thought of leaving, although of course I want to be where
+            I am most needed. The simplicity of this place is a great contrast to Aix and does
+            appeal to me so much more than the gay whirl down there with the Casino and all its
+            marble halls and broad terraces. There the boys come and go and you do all you can to
+            cheer them, but here they aren't on leave and are up against the real thing, and, if
+            possible, need a bit of feminine companionship more than anywhere else. Also one belongs
+            to a unit and after a while you come to feel a very distinct sense of proprietorship,
+            your hopes and fears and special prayers are centered about the men of your outfit and
+            their failures and successes are very much your own. O! I do hope that the Y will let me
+            stay right where I am. I have made up my mind of course to be a good soldier whatever
+            comes, but I am hoping, hoping hard every minute that I shall be allowed to
+            stay.</paragraph>
+        <!--The Y is mentioned again in the prior paragraph, seemingly in reference to a company or employer as pertains to the author. It is unclear if she is referencing a Y-station.-->
+    </letter>
+
+</root>

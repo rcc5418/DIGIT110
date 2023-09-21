@@ -1,0 +1,26 @@
+start = label
+label = element xml{
+dateLine,fw,greeting,p+,closing,signed,metadata
+}
+#Notice the different names (and how you have to use # for comments)
+dateLine = element dateLine{when, text}
+when = attribute when{xsd:date}
+
+fw = element fw{line+}
+line = element line{text}
+
+greeting = element greeting{mixed{mistake*}}
+#note syntax for mixed content (don't use reserve word text here)
+mistake = element mistake{orig,reg}
+orig = element orig{text}
+reg = element reg{text}
+
+p = element p{mixed{(rend|mistake)*}}
+rend = element rend{color, mixed{mistake*}}
+color = attribute color{"red"|"blue"|"green"}
+
+closing = element closing{text}
+signed = element signed{text}
+metadata = element metadata{source}
+source = element source{url, empty}
+url = attribute url{xsd:anyURI}
