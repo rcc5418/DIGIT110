@@ -1,0 +1,20 @@
+start = root
+root = element root{metadata?, heading,(stanza+|line+), source}
+
+metadata = element metadata{text, source*}
+
+heading = element heading{title?,author*}
+title = element title{titleName,text}
+titleName = attribute titleName{xsd:string}
+author = element author{who, text}
+who = attribute who{xsd:string}
+when = attribute when{xsd:date | xsd:gYearMonth | xsd:gYear}
+
+stanza = element stanza{n?, line+}
+n = attribute n{xsd:integer}
+
+line = element line{rhyme,text}
+rhyme = attribute rhyme{xsd:string}
+
+source = element source{url, empty}
+url = attribute url{xsd:anyURI}

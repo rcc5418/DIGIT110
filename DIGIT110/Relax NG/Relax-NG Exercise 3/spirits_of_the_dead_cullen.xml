@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="spirits_of_the_dead_cullen.rnc" type="application/relax-ng-compact-syntax"?>
+<root>
+    <metadata>"Spirits of the Dead" was first titled "Visits of the Dead" when it was published in the 1827 collection Tamerlane and Other Poems. The title was changed for the 1829 collection Al Aaraaf, Tamerlane, and Minor Poems. The poem follows a dialogue between a dead speaker and a person visiting his grave. The spirit tells the person that those who one knows in life surround a person in death as well.<source url="https://en.wikipedia.org/wiki/Poems_by_Edgar_Allan_Poe"/></metadata>
+    <heading><title titleName = "Spirits of the Dead">Spirits of the Dead</title>
+    <author who="Edgar Allen Poe">By Edgar Allen Poe</author></heading>
+    
+<stanza n="1"><line rhyme="A">Thy soul shall find itself alone</line>
+    <line rhyme="A">'Mid dark thoughts of the grey tomb-stone --</line>
+    <line rhyme="B">Not one, of all the crowd, to pry</line>
+    <line rhyme="B">Into thine hour of secrecy:</line>
+    <line rhyme="C">Be silent in that solitude</line>
+    <line rhyme="D">Which is not loneliness -- for then</line>
+    <line rhyme="E">The spirits of the dead who stood</line>
+    <line rhyme="D">In life before thee are again</line>
+    <line rhyme="F">In death around thee --  and their will</line>
+    <line rhyme="F">Shall then overshadow thee: be still.</line>
+</stanza>
+
+    <stanza n="2"><line rhyme="G">For the night -- tho' clear -- shall frown --</line>
+        <line rhyme="G">And the stars shall look not down,</line>
+        <line rhyme="H">From their high thrones in the Heaven,</line>
+        <line rhyme="H">With light like Hope to mortals given --</line>
+        <line rhyme="I">But their red orbs, without beam,</line>
+        <line rhyme="I">To thy weariness shall seem</line>
+        <line rhyme="J">As a burning and a fever</line>
+        <line rhyme="J">Which would cling to thee for ever :</line></stanza>
+
+    <stanza n="3"><line rhyme="K">Now are thoughts thou shalt not banish --</line>
+        <line rhyme="K">Now are visions ne'er to vanish --</line>
+        <line rhyme="L">From thy spirit shall they pass</line>
+        <line rhyme="L">No more -- like dew-drop from the grass:</line></stanza>
+
+    <stanza n="4"><line rhyme="F">The breeze -- the breath of God -- is still --</line>
+        <line rhyme="F">And the mist upon the hill</line>
+        <line rhyme="M">Shadowy -- shadowy -- yet unbroken,</line>
+        <line rhyme="M">Is a symbol and a token --</line>
+        <line rhyme="N">How it hangs upon the trees,</line>
+        <line rhyme="N">A mystery of mysteries! --</line></stanza>
+
+    <source url="https://poestories.com/read/spiritsofthedead"/>
+</root>
