@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>March 12, 1909. Friday</title>
+            <author>Mary Behrend</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by Penn State Behrend</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mary Behrend, who founded Penn State Behrend, wrote notes to her husband on daily
+               calender pages. Included were poems, jokes, and small illustrations. This is the
+               encoded version of the page for March 12, 1909.</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>COPYRIGHT 1908, BY</p>
+         <p>FRIENDSHIP CALENDAR CO.</p>
+         <p>NEW BRITAIN, CONN.</p>
+         <gap>
+            <desc>A page-wide line made up of hyphens</desc>
+         </gap>
+         <dateline style="Large lettering, with an extravagant orange 'M'">March 12, 1909.
+            Friday</dateline>
+      </front>
+      <figure>
+         <graphic
+            url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2050.jpg">
+            <desc style="hand-drawn">A female figure with rosey cheeks. She is wearing a blue hat
+               and skirt as well as red mittens. Large snowshowes are on her feet, and she is
+               walking with an exaggerated gait.</desc>
+         </graphic>
+      </figure>
+      <body>
+         <p>Molly on</p>
+         <p>Snowshoes</p>
+         <p>That Mr. Weir</p>
+         <p>Got.</p>
+         <p>Pretty picture</p>
+         <p>Is it not?!</p>
+         <gap>
+            <desc>No other text until the bottom right corner of the page</desc>
+         </gap>
+         <p style="cursive">Love from Molly<!-- Molly refers to Mary Behrend --></p>
+      </body>
+   </text>
+</TEI>

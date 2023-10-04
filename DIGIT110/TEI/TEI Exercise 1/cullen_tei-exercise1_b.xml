@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>March 17, 1909. Friday</title>
+            <author>Mary Behrend</author>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by Penn State Behrend</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Mary Behrend, who founded Penn State Behrend, wrote notes to her husband on daily
+               calender pages. Included were poems, jokes, and small illustrations. This is the
+               encoded version of the page for March 17, 1909, St. Patrick's Day!</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <p>COPYRIGHT 1908, BY</p>
+         <p>FRIENDSHIP CALENDAR CO.</p>
+         <p>NEW BRITAIN, CONN.</p>
+         <gs><desc>A page-wide line made up of hyphens</desc></gs>
+         <dateline style="Large lettering, with an extravagant green 'M'">March 17, 1909. Friday</dateline>
+      </front>
+      <figure><graphic url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2052.jpg"><desc style="hand-drawn">Small snakes and three-leaf clovers are drawn around the page. There are two snakes, and four clovers.</desc></graphic></figure>
+      <body>
+         <p>St. Patrick was a useful saint</p>
+         <p>He frightened all the snakes away-</p>
+         <p>I wish he'd try his art on <desc style="underlined">smoke</desc></p>
+         <p>Around the Hammermill some day!</p>
+         <gap><desc>No other text until the bottom of the page</desc></gap>
+         <figure><graphic url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2052.jpg"><desc style="hand-drawn">A small drawing of what appears to be a factory sits above the note at the bottom of the page, presumably Hammermill.</desc></graphic></figure>
+         <p style="cursive">The Hammermill really <desc style="unintelligble to encoding author, written word is a guess">drips</desc> smoke!</p>
+      </body>
+   </text>
+</TEI>
