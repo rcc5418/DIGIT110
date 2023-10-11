@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?xml-model href="file:/C:/Users/Reece/OneDrive/Desktop/GitHub/DIGIT110/DIGIT110/TEI/TEI%20Exercise%205/out/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Mary Behrend's calendar notes</title>
+            <author>Mary Behrend</author>
+            <editor>Reece Cullen</editor>
+         </titleStmt>
+         <publicationStmt>
+            <p>Published by Penn State Behrend, made available by the <orgName
+                  source="https://arrowarchive.github.io/behrendcalendar/archive.html">Arrow
+                  Archive</orgName>.</p>
+         </publicationStmt>
+         <sourceDesc>
+            <msDesc>
+               <msIdentifier>
+                  <institution>Penn State Behrend</institution>
+                  <repository>Lilley Library, Penn State Behrend</repository>
+               </msIdentifier>
+               <physDesc>
+                  <p>Mary Behrend, who founded Penn State Behrend, wrote notes to her husband Ernest
+                     on daily calender pages. Included were poems, jokes, and small illustrations.
+                     This file includes encoded versions of a couple of Mary's notes</p>
+                  <p>These pages are contained in a family album that includes some photos of the
+                     Behrend children.<figure>
+                        <graphic
+                           url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2040.jpg">
+                           <desc>A stack of calendar pages sits on an open envelope to the left of a
+                              worn, aging album. Embossed on the album cover in blue string are the
+                              words 'Baby Days' as well as some flowers.</desc>
+                        </graphic>
+                     </figure></p>
+                  <handDesc>
+                     <handNote n="1">Printed script, pencil</handNote>
+                     <handNote n="2">Printed script, black pen</handNote>
+                     <handNote n="3">Cursive script, pencil</handNote>
+                     <handNote n="4">Cursive script, black pen</handNote>
+                     <handNote n="5">Cursive script, red pen</handNote>
+                  </handDesc>
+               </physDesc>
+            </msDesc>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <particDesc>
+            <person>
+               <persPronouns>she/her</persPronouns>
+               <persName><forename>Mary</forename><surname>Behrend</surname></persName>
+            </person>
+         </particDesc>
+         <settingDesc>
+            <p>Pages were written in <placeName>Erie, Pa</placeName>, in the year 1909.</p>
+         </settingDesc>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <front>
+         <fw><lb/>COPYRIGHT 1908, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW BRITAIN, CONN.</fw>
+         <space>
+            <desc>A page-wide line made up of hyphens</desc>
+         </space>
+         <dateline style="Large lettering, with an extravagant 'J'">January 30, 1909.
+            Friday</dateline>
+      </front>
+      <body>
+         <figure>
+            <graphic
+               url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2041.jpg">
+               <desc style="printed">A man is depicted sitting up in a bed, groggily rubbing his
+                  eye. Next to his bed is a table with a lamp and an alarm clock on it.</desc>
+            </graphic>
+         </figure>
+         <!-- ERB, in the p below, presumably refers to Ernest Behrend, Mary's Husband -->
+         <p hand="3"><lb/>E.R.B.<lb/>"That damned old clock <lb/>gives me a shock <lb/>Each morning
+            where it's dark <lb/>It likes the fun, but I've become <lb/>So tired of the lark!"</p>
+      </body>
+   </text>
+   <text>
+      <front>
+         <fw><lb/>COPYRIGHT 1908, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW BRITAIN, CONN.</fw>
+         <space>
+            <desc>A page-wide line made up of hyphens</desc>
+         </space>
+         <dateline style="Large lettering, with an extravagant blue 'M'">March 11, 1909.
+            Thursday</dateline>
+      </front>
+      <figure>
+         <graphic
+            url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2049.jpg">
+            <desc style="hand-drawn">A group of four women wearing brightly colored frilly dresses.
+               Some of the women face each other. The figures are drawn in pencil and colored in
+               ink.</desc>
+         </graphic>
+      </figure>
+      <body>
+         <p style="sideways at the left of the page" hand="5"><unclear reason="illegible"
+               ><gap/></unclear>very <desc style="underlined">gay</desc> in Erie?</p>
+         <p hand="4"><lb/>Everybody dressed <unclear reason="illegible"><gap/></unclear> best
+            <lb/>For <desc style="underlined">this</desc> is an <desc style="underlined">Erie
+               Tea</desc>
+            <lb/>They <desc style="underlined">eat</desc> too much, <desc style="underlined"
+               >talk</desc> so much <lb/>You can bet they <unclear reason="illegible"
+               ><gap/></unclear> in me.</p>
+      </body>
+   </text>
+   <text>
+      <front>
+         <fw><lb/>COPYRIGHT 1908, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW BRITAIN, CONN.</fw>
+         <space>
+            <desc>A page-wide line made up of hyphens</desc>
+         </space>
+         <dateline style="Large lettering, with an extravagant orange 'M'">March 12, 1909.
+            Friday</dateline>
+      </front>
+      <figure>
+         <graphic
+            url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2050.jpg">
+            <desc style="hand-drawn">A female figure with rosey cheeks. She is wearing a blue hat
+               and skirt as well as red mittens. Large snowshowes are on her feet, and she is
+               walking with an exaggerated gait.</desc>
+         </graphic>
+      </figure>
+      <body>
+         <p hand="1"><lb/>Molly on <lb/>Snowshoes <lb/>That Mr. Weir <lb/>Got. <lb/>Pretty picture
+            <lb/>Is it not?!</p>
+         <space>
+            <desc>No other text until the bottom right corner of the page</desc>
+         </space>
+         <p style="cursive">Love from Molly<!-- Molly refers to Mary Behrend --></p>
+      </body>
+   </text>
+   <text>
+      <front>
+         <fw><lb/>COPYRIGHT 1908, BY <lb/>FRIENDSHIP CALENDAR CO. <lb/>NEW BRITAIN, CONN.</fw>
+         <space>
+            <desc>A page-wide line made up of hyphens</desc>
+         </space>
+         <dateline style="Large lettering, with an extravagant green 'M'">March 17, 1909.
+            Friday</dateline>
+      </front>
+      <figure>
+         <graphic
+            url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2052.jpg">
+            <desc style="hand-drawn">Small snakes and three-leaf clovers are drawn around the page.
+               There are two snakes, and four clovers.</desc>
+         </graphic>
+      </figure>
+      <body>
+         <p hand="2"><lb/>St. Patrick was a useful saint <lb/>He frightened all the snakes away-
+            <lb/>I wish he'd try his art on <desc style="underlined">smoke</desc>
+            <lb/>Around the Hammermill some day!</p>
+         <space>
+            <desc>No other text until the bottom of the page</desc>
+         </space>
+         <figure>
+            <graphic
+               url="https://newtfire.org/courses/tutorials/TEI-images/mary-behrend-calendar-1909/IMG_2052.jpg">
+               <desc style="hand-drawn">A small drawing of what appears to be a factory sits above
+                  the note at the bottom of the page, presumably Hammermill.</desc>
+            </graphic>
+         </figure>
+         <p hand="5">The Hammermill really <unclear
+               style="unintelligble to encoding author, written word is a guess">drips</unclear>
+            smoke!</p>
+      </body>
+   </text>
+</TEI>

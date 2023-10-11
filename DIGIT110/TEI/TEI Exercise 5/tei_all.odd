@@ -1,0 +1,145 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:lang="en">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>TEI-Exercise-5, October 9, 2023</title>
+        <author>Reece Cullen</author>
+        <!-- 2023-10-7 rcc: This is the odd file I made by messing with the sample file from the textEncoding-HUB repository.
+        -->
+      </titleStmt>
+      <publicationStmt>
+        <publisher>TEI Consortium</publisher>
+        <availability status="free">
+          <p>TEI material can be licensed differently depending on the use you intend to make of it.
+            Hence it is made available under both the CC+BY and BSD-2 licences. The CC+BY licence is
+            generally appropriate for usages which treat TEI content as data or documentation. The
+            BSD-2 licence is generally appropriate for usage of TEI content in a software
+            environment. For further information or clarification, please contact the TEI Consortium
+            (info@tei-c.org).</p>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <p>Created by editing the odd file found <ref
+            source="https://github.com/newtfire/textEncoding-Hub/blob/master/Class-Examples/TEI-ODD-Examples/Behrend-Starter-ODD/TEI-Behrend-StarterODD.odd"
+            >here</ref>
+          )(https://github.com/newtfire/textEncoding-Hub/blob/master/Class-Examples/TEI-ODD-Examples/Behrend-Starter-ODD/TEI-Behrend-StarterODD.odd).</p>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <appInfo>
+        <application ident="RomaJS" version="1.0.0" when="2023-10-07T14:29:07.604Z">
+          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+        </application>
+      </appInfo>
+      <appInfo>
+        <application ident="RomaJS" version="1.0.0" when="2023-10-09T19:06:07.435Z">
+          <desc>File edited with <ref target="https://github.com/TEIC/romajs">RomaJS</ref></desc>
+        </application>
+      </appInfo>
+    </encodingDesc>
+  </teiHeader>
+  <text>
+    <body>
+      <head>TEI Complete</head>
+      <p>This TEI customization describes a schema that includes <emph>some</emph> of the TEI P5
+        modules. This customization often proves helpful for testing TEI software.</p>
+      <p>This ODD file is meant to encapsulate some XML coding of some of Mary Behrend's calendar
+        pages</p>
+      <schemaSpec ident="tei_all" start="TEI teiCorpus" prefix="tei_" targetLang="en" docLang="en">
+        <moduleRef n="01" key="tei"/>
+        <moduleRef n="02" key="header" except="abstract availability extent normalization taxonomy"/>
+        <moduleRef n="03" key="core"
+          except="analytic cb divGen email headItem headLabel index meeting monogr rb relatedItem rt ruby sp speaker stage binaryObject choice distinct foreign gb measure measureGrp"/>
+        <moduleRef n="04" key="textstructure"
+          except="argument closer docEdition epigraph titlePage titlePart"/>
+
+        <moduleRef n="06" key="transcr"/>
+
+        <moduleRef n="10" key="msdescription"
+          except="accMat acquisition additional adminInfo altIdentifier collation collection custEvent custodialHist explicit filiation finalRubric foliation musicNotation provenance secFol watermark"/>
+
+
+        <moduleRef n="13" key="namesdates" except="age bloc climate district floruit nameLink"/>
+        <moduleRef n="14" key="figures" except="cell row"/>
+
+        <moduleRef n="16" key="linking" except="ab altGrp anchor annotation"/>
+
+        <moduleRef key="corpus" include="particDesc settingDesc"/>
+        <elementSpec ident="dateline" mode="change">
+          <classes mode="change">
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+          <attList>
+            <attRef name="style" class="att.global.rendition"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="graphic" mode="change">
+          <classes mode="change">
+            <memberOf key="att.declaring" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+            <memberOf key="att.media" mode="delete"/>
+            <memberOf key="att.resourced" mode="delete"/>
+            <memberOf key="att.typed" mode="delete"/>
+          </classes>
+          <attList>
+            <attRef name="url" class="att.resourced"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="handNote" mode="change">
+          <classes mode="change">
+            <memberOf key="att.handFeatures" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="xml:id" mode="delete"/>
+            <attDef ident="xml:lang" mode="delete"/>
+            <attDef ident="xml:base" mode="delete"/>
+            <attDef ident="xml:space" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attDef ident="style" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="change" mode="delete"/>
+          </attList>
+        </elementSpec>
+        <elementSpec ident="p" mode="change">
+          <classes mode="change">
+            <memberOf key="att.declaring" mode="delete"/>
+            <memberOf key="att.fragmentable" mode="delete"/>
+            <memberOf key="att.global" mode="delete"/>
+          </classes>
+          <attList>
+            <attDef ident="change" mode="delete"/>
+            <attDef ident="facs" mode="delete"/>
+            <attDef ident="ana" mode="delete"/>
+            <attDef ident="source" mode="delete"/>
+            <attDef ident="cert" mode="delete"/>
+            <attDef ident="resp" mode="delete"/>
+            <attDef ident="corresp" mode="delete"/>
+            <attDef ident="synch" mode="delete"/>
+            <attDef ident="sameAs" mode="delete"/>
+            <attDef ident="copyOf" mode="delete"/>
+            <attDef ident="next" mode="delete"/>
+            <attDef ident="prev" mode="delete"/>
+            <attDef ident="exclude" mode="delete"/>
+            <attDef ident="select" mode="delete"/>
+            <attDef ident="rendition" mode="delete"/>
+            <attDef ident="rend" mode="delete"/>
+            <attRef name="style" class="att.global.rendition"/>
+          </attList>
+        </elementSpec>
+      </schemaSpec>
+    </body>
+  </text>
+</TEI>
