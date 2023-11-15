@@ -1,0 +1,24 @@
+1. a. The command //div/count(*) will count the number of child elements within each div element and return each count separately.
+b. The command //div/*/count(*) will count the number of child elements within each child element of each div element and return each count separately.
+
+2. //div/*/count(*) => min() will return 3, so the least number of child elements contained in a child element of a div element is 3.
+
+3. //div[count(*) = 4] will return the div with the most child elements (lists), which is the fictional_and_archetypal type div.
+If you don't know the max number, you can use the command //div[count(*) = (//div/count(*)=>max())] instead
+
+4. a. //occupation/@type => distinct-values() will return a list of each distinct @type value found in an occupation element
+b. (//occupation/@type => distinct-values()) => count() will return the number of distinct values, which is 15. I couldn't find a better way to type this but it probably exists.
+
+5. a. //occupation[@type = "artist"] Will return 105 items
+b. //person[occupation[@type = "artist"]] will return 59 items
+c. //person[occupation[@type = "artist"] and @sex ="f"] will return only 6 items
+d. //person/occupation[@subtype = "engraver"] will retrun 18 items
+e. //person[occupation[@subtype = "engraver"] and birth[@when = "1787"]] will return one result, William Finden
+f. person[occupation[@subtype = "engraver"]]/birth/@when will return 17 items
+g. //person[occupation[@subtype = "engraver"]]/birth/@when  => sort() Will return a sorted list of the dates, revealing the earliest birthday is in 1667,
+but //person[occupation[@subtype = "engraver"]]/birth/@when ! sort(.) gives me a different list with different birthdays
+I do not understand how the simple map operator works.
+
+6. a. //*/name() will return all the elements' names, over 40,000
+b. (//*/name()) => distinct-values() will return the unique element names, only 78
+

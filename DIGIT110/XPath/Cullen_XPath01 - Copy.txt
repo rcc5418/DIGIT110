@@ -1,0 +1,17 @@
+1. //div[@type = "panelGrp"]
+
+2. //div[@type = "panelGrp"]/cbml:panel
+
+3. //div[@type = "panelGrp"][2]
+   //div[@type = "panelGrp"][2]/cbml:panel
+   Since the second search query returned 2 results, that means the second comic strip has 2 panels
+   
+4. //@characters
+   The characters attribute is present 53 times
+   
+5. //cbml:panel[@characters = "#narrator"]
+
+6. floatingText, in CBML, can be used to represent any text that appears outside a caption or speech/thought bubble, like in-universe diegetic text or extra-dimensional narratoin
+There were 41 instances of floatingText
+Using //cbml:panel/floatingText, we can see that 36 panels contain floatingText
+By typing //cbml:panel/floatingText => count(), the system will return 36

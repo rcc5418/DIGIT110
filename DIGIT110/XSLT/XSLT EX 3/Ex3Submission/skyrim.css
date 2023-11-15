@@ -1,0 +1,37 @@
+body{
+    background-color: black;
+    color: white;
+}
+emph[rend="bold"]{
+    font-weight: bold;
+    color: #e6ffff;
+}
+emph[rend="underlined"]{
+    text-decoration: underline #e6ffff;
+}
+span.character{
+    color: #f2e6ff;
+}
+faction.MythicDawn{
+    color: #b3c6ff;
+}
+faction.blades{
+    color: #ffb3cc;
+}
+faction.daedra{
+    color: #c2f0c2;
+}
+faction.DarkBrotherhood{
+    color: #ffd9b3;
+}
+faction.empire{
+    color: #d9ffb3;
+}
+
+span.QuestEvent{
+    font-style: italic;
+}
+span.QuestItem{
+    text-decoration-line: underline;
+    text-decoration-style: wavy;
+}

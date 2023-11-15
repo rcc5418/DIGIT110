@@ -1,0 +1,17 @@
+1. //body/div[@type = "historical_people"]
+
+2a.//body/div[@type = "historical_people"]/*
+2b.//body/div[@type="nature"]/*  (This will return all the child elements of the div element where type = "nature". There are two child elements, both lists, labeled with the attribute sortKey as plants and animals)
+2c. Using //body/div/* => count() or //body/div/* will return 20 results, so there are a total of 20 child elements within div elements throughout the file.
+
+3a. Using //body/div[@type="nature"]/list[@sortKey = "animals"]/*=>count() or //body/div[@type="nature"]/list[@sortKey = "animals"]/* returns 67 elements
+3b. Using //body/div[@type="nature"]/list[@sortKey = "animals"]/*[last()] will return the item element with the xml:id of "wren_crested"
+3c. Using //body/div[@type="nature"]/list[@sortKey = "plants"]/*[5] will return the 5th element within the list, the "apple_tree"
+
+4. //person/occupation[1] will return every first instance of an occupation element being found within a person element (A bunch of results, over 900)
+ (//person/occupation)[1] will return the very first instance of an occupation element being found within a person element (Only one result)
+ 
+5a. //person => count() will return 1503 results
+5b. //person[@sex] => count() will only return 1378 results, so not every person is encoded with a sex
+5c. The command (//person/@sex => count()) div (//person => count()) returns 0.916833000665335995, so approximately 91.6% of person elements are encoded with a sex
+5d. The command (//person[@sex = "f"] => count()) div (//person => count())returns 0.272122421823020625, so of the author's associates, approximately 27.2% were encoded as female 

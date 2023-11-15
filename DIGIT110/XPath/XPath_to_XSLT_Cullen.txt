@@ -1,0 +1,15 @@
+An important task I want to be able to do with our project is keep track of how often different characters appear, both in panels, and how many lines they have.
+So far in Issue #1, Sonic is the only character who has shown up, but it's still prudent to come up with template XPath commands we can use to sparse through different character appearences.
+//cbml:balloon[@who = "#sonic"] => count() Will return the number of balloons that Sonic has, so far only 9.
+//cbml:panel/@characters[contains(.,'#sonic')] => count() will return the number of panels Sonic appears in so far, 20.
+
+A comming like:
+//cbml:balloon[normalize-space() ! string-length() = max(//cbml:balloon/ normalize-space() ! string-length())]
+will return the longest balloon, Sonic giving a vista resident some advice, while
+//cbml:balloon[normalize-space() ! string-length() = min(//cbml:balloon/ normalize-space() ! string-length())] 
+returns the shortest line, the resident agreeing saying 'O-okay!'.
+
+I made sure to identify as many enemies as possible, within the panelDesc notes, so you can search for the number of times an Egg Hammer or a Motobug appears using commands like:
+//cbml:panel/note[contains(. , 'Egg Hammer')] => count()
+or 
+//cbml:panel/note[contains(. , 'Motobug')] => count()

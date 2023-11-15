@@ -1,0 +1,18 @@
+1. //cbml:panel/@characters => distinct-values() will return 39 values, less than the 56 that //cbml:panel/@characters returns, but each value isn't really unique, since there's repeats like "#solin #kaliman" and "#kaliman #solin", which mean virtually the same thing.
+
+2. (//cbml:panel/@characters ! tokenize(.)) => distinct-values() will return a list of all the unique characters that appear
+
+3a. //cbml:panel/@characters[contains(.,'drkelly')] Will return 5 panels that contain Dr Kelly
+3b. //cbml:panel/@characters[contains(.,'solin')] Will say that Solin appears in 29 panels
+//cbml:panel/@characters[contains(.,'kaliman')] will say that Kaliman appears in 35 panels
+
+4a.//cbml:panel/cbml:balloon ! string-length() Will return each balloon's length, so
+(//cbml:panel/cbml:balloon ! string-length()) => max() will return the value of the longest balloon, 215 characters
+4b. //cbml:panel/cbml:balloon[string-length() = (//cbml:panel/cbml:balloon ! string-length()) => max()] will return the balloon with the longest length, spoken by Kaliman.
+4c. //cbml:panel/cbml:balloon[string-length() = (//cbml:panel/cbml:balloon ! string-length()) =>min()] will return the shortest balloon in the comic, Kaliman calling for a "Taxi."
+
+5a. //cbml:panel/note[contains(. , 'skull')] will show that panel 2 of page 6 contains a spooky skull.
+5b. //div[//cbml:balloon[contains(., 'NO')]] will return every page, even though not every page has 'no' in a balloon.
+//div[.//cbml:balloon[contains(., 'NO')]] will return only half of the pages
+I think this is because the extra dot in the second command is telling XPath to look at each div individually, when the first command was looking at all the content within the divs and returning all of them because at least one of them contained 'NO'
+Honestly, I'm not very sure though.
